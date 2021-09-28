@@ -1,17 +1,17 @@
 package linkedlist;
 
-public class SingleLinkedList {
+public class SingleLinkedListNode {
 
   private int data;
-  private SingleLinkedList next;
+  private SingleLinkedListNode next;
 
-  public SingleLinkedList(int data) {
+  public SingleLinkedListNode(int data) {
     this.data = data;
   }
 
   public void append(int data) {
-    SingleLinkedList next = new SingleLinkedList(data);
-    SingleLinkedList node = this;
+    SingleLinkedListNode next = new SingleLinkedListNode(data);
+    SingleLinkedListNode node = this;
 
     while (node.next != null) {
       node = node.next;
@@ -21,7 +21,7 @@ public class SingleLinkedList {
   }
 
   public void delete(int data) {
-    SingleLinkedList node = this;
+    SingleLinkedListNode node = this;
     while (node.next != null) {
       if (node.next.data == data) {
         node.next = node.next.next;
@@ -32,7 +32,7 @@ public class SingleLinkedList {
   }
 
   public void retrieve() {
-    SingleLinkedList node = this;
+    SingleLinkedListNode node = this;
     while (node.next != null) {
       System.out.print(node.data + " -> ");
       node = node.next;

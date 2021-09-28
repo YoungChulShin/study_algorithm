@@ -1,8 +1,8 @@
-import linkedlist.SingleLinkedListPlayground;
+import linkedlist.LinkedListPlayground;
 
 public class StudyAlgorithm {
 
   public static void main(String[] args) {
-    SingleLinkedListPlayground.play();
+    LinkedListPlayground.playSingleLinkedListNode();
   }
 }
