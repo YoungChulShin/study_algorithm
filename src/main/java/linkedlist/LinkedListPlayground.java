@@ -15,4 +15,20 @@ public class LinkedListPlayground {
     singleLinkedListNode.delete(2);
     singleLinkedListNode.retrieve();
   }
+
+  public static void playSingleLinkedList() {
+    SingleLinkedList singleLinkedList = new SingleLinkedList();
+    singleLinkedList.append(1);
+    singleLinkedList.append(2);
+    singleLinkedList.append(3);
+    singleLinkedList.append(4);
+    singleLinkedList.append(5);
+    singleLinkedList.retrieve();
+
+    System.out.println();
+
+    singleLinkedList.delete(5);
+    singleLinkedList.delete(1);
+    singleLinkedList.retrieve();
+  }
 }

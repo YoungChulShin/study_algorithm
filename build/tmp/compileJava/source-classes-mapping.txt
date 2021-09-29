@@ -1,6 +1,9 @@
-StudyAlgorithm.java
- StudyAlgorithm
-linkedlist/SingleLinkedListPlayground.java
- linkedlist.SingleLinkedListPlayground
+linkedlist/SingleLinkedListNode.java
+ linkedlist.SingleLinkedListNode
 linkedlist/SingleLinkedList.java
  linkedlist.SingleLinkedList
+ linkedlist.SingleLinkedList$Node
+linkedlist/LinkedListPlayground.java
+ linkedlist.LinkedListPlayground
+StudyAlgorithm.java
+ StudyAlgorithm
